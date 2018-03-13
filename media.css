@@ -1,0 +1,58 @@
+.flex-main{
+  display:flex;
+  flex-direction:row;
+}
+.profile
+{
+  width:30%;
+  background:#ffff;
+  margin:1%;
+  padding:2%;
+}
+.content
+{
+  width:70%;
+  margin:1%;
+  background:blue;
+  padding:2%;
+  border:1px solid gray;
+  border-radius:30px;
+}
+body{
+  background:#ddd;
+}
+img{
+  width=50%;
+  diaplay:block;
+  margin-left: auto;
+  margin-left: :auto;
+}
+@media only screen and(min-width:320px) and (max-width:480px)
+{
+  .flex-main{
+    display:flex;
+    flex-direction:row;
+  }
+  .profile
+  {
+    width:30%;
+    background:#ffff;
+    margin:1%;
+    padding:2%;
+  }
+  .content
+  {
+    width:70%;
+    margin:1%;
+    background:blue;
+    padding:2%;
+    border:1px solid gray;
+    border-radius:30px;
+  }
+}
+@media only screen and(min-width:481px) and (max-width:760px)
+{
+}
+@media only screen and(min-width:762px) and (max-width:1024px)
+{
+}
